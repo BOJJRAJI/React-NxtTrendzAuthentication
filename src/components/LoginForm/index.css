@@ -1,0 +1,80 @@
+.login-form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.login-image {
+  width: 50%;
+}
+.form-element {
+  width: 40%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+}
+.nextWave-icon {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.username-container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.label-element {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+.input-element {
+  background-color: #e2e8f0;
+  border: none;
+  color: #d7dfe9;
+  padding: 10px;
+  border-radius: 3px;
+}
+.login-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  width: 38%;
+  border-radius: 7px;
+  margin-top: 10px;
+  height: 40px;
+}
+.error-message {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ff0b37;
+}
+@media screen and (max-width: 576px) {
+  .login-form-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .login-image {
+    width: 60%;
+    height: 200px;
+  }
+  .form-element {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
